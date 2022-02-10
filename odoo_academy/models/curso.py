@@ -5,3 +5,14 @@ class Curso(models.Model):
     _name = 'academy.curso'
     _description = 'Información del curso'
     
+    
+    name = fields.Char(string='Title', required=True)
+    description = fields.Text(string='Description')
+    
+    lavel = fields.Selection(string='Level',
+                             selection=[('beginner', 'Beginner'),
+                                       ('intermediate', 'Intermediate'),
+                                       ('advanced', 'Advanced')],
+                             copy=False)
+    
+    active = fields.Boolean(string='Active', default=True)
