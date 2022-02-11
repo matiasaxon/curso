@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encodig="utf-8"?>
 <odoo>
     <data>
         <record model="ir.url.view" id="course_view_form">
-            <field name="name">academy.course.form</field>
+            <field name="name">academy.curso.form</field>
             <field name="model">academy.curso</field>
             <field name="arch" type="xml">
                 <form string="Course Form">
@@ -27,7 +27,7 @@
         </record> 
         
         <record model="ir.url.view" id="course_view_list">
-            <field name="name">academy.course.list</field>
+            <field name="name">academy.curso.list</field>
             <field name="model">academy.curso</field>
             <field name="arch" type="xml">
                 <tree string="course List">
@@ -39,7 +39,7 @@
         </record>
         
         <record model="ir.ui.view" id="course_view_search">
-            <field name="name">academy.course.search</field>
+            <field name="name">academy.curso.search</field>
             <field name="model">academy.curso</field>
             <field name="arch" type="xml">
                 <search>
