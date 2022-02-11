@@ -7,7 +7,7 @@
     
     'description': """
         Academy Module to manege Training:
-        - COurses
+        - Courses
         -Sessions
         - Attendees
         """,
