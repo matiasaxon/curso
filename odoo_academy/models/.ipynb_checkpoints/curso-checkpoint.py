@@ -9,7 +9,7 @@ class Curso(models.Model):
     name = fields.Char(string='Title', required=True)
     description = fields.Text(string='Description')
     
-    lavel = fields.Selection(string='Level',
+    level = fields.Selection(string='Level',
                              selection=[('beginner', 'Beginner'),
                                        ('intermediate', 'Intermediate'),
                                        ('advanced', 'Advanced')],

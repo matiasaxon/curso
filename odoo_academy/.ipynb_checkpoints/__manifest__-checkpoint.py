@@ -14,6 +14,8 @@
     
     'author': 'Odoo',
     
+    'license': 'LGPL-3',
+    
     'website': 'wwww.axonsoftware.cl',
     
     'category': 'Training',
