@@ -10,13 +10,13 @@
                        <field name="session_id"/>
                 </xpath>
                 
-                <field name='partner_id' possition="before">
+                <field name='partner_id' position="before">
                     <field name="instructor_id" attrs="{'invisible':[('session_id', '=', False)]}"/>
                 </field>
                 
                 <xpath expr="//sheet//notebook" position="inside">
                     <page string="Students" attrs="{'invisible':[('session_id', '=', False)]}">
-                        <field string="Student_ids">
+                        <field name="student_ids">
                             <tree>
                                 <field name="name"/>
                                 <field name="phone"/>
