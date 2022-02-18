@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <odoo>
     <data>
         <record model="ir.ui.view" id="academy_sale_wizard_form_view">
@@ -26,7 +25,7 @@
                     name="Create Sale Order"
                     binding_model="academy.session"
                     res_model="academy.sale.wizard"
-                    view_model="form"
+                    view_mode="form"
                     target="new"/>
     </data>
 </odoo>

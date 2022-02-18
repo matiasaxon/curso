@@ -34,6 +34,8 @@
         'views/product_views_inherit.xml',
         'wizard/sale_wizard_view.xml',
         
+        
+        
     ],
     
     'demo': [
